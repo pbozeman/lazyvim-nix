@@ -21,14 +21,12 @@ let
     cmp_luasnip
     conform-nvim
     crates-nvim
-    dracula-nvim
     dressing-nvim
     flash-nvim
     friendly-snippets
     gitsigns-nvim
     headlines-nvim
     indent-blankline-nvim
-    kanagawa-nvim
     lualine-nvim
     marks-nvim
     neo-tree-nvim
