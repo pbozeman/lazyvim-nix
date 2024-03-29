@@ -62,6 +62,7 @@ let
     sqlite-lua
     telescope-fzf-native-nvim
     telescope-nvim
+    tint-nvim
     tmux-navigator
     todo-comments-nvim
     tokyonight-nvim
