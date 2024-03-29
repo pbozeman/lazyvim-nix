@@ -19,6 +19,10 @@ return {
     "echasnovski/mini.pairs",
     enabled = false,
   },
+  {
+    "echasnovski/mini.indentscope",
+    opts = { draw = { animation = require("mini.indentscope").gen_animation.none() } },
+  },
   -- Enable for live command output.
   -- {
   --   "folke/noice.nvim",
