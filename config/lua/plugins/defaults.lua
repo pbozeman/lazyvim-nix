@@ -15,6 +15,10 @@ return {
       stages = "static",
     },
   },
+  {
+    "echasnovski/mini.pairs",
+    enabled = false,
+  },
   -- Enable for live command output.
   -- {
   --   "folke/noice.nvim",
