@@ -10,7 +10,9 @@ return {
   {
     "rcarriga/nvim-notify",
     opts = {
+      level = 3,
       render = "compact",
+      stages = "static",
     },
   },
   -- Enable for live command output.
