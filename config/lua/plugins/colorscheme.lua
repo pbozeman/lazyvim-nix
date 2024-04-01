@@ -8,6 +8,13 @@ return {
         floats = "transparent",
         comments = { fg = "#f8c8dc", italic = true },
       },
+      on_colors = function(colors)
+        -- the tokyonight red has no chill, use the red from nord.
+        -- (it's a bit too pastel, but better than the default.)
+        colors.error = "#bf616a"
+        colors.red = "#bf616a"
+        colors.red1 = "#bf616a"
+      end,
     },
     priority = 1000,
     event = "VeryLazy",
