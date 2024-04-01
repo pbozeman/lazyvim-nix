@@ -5,3 +5,5 @@ vim.cmd("packadd cfilter")
 
 vim.opt.spell = true
 vim.opt.spelllang = { "en_us" }
+
+vim.g.root_spec = { ".git" }
