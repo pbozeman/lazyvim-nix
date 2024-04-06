@@ -49,6 +49,7 @@ pkgs.symlinkJoin {
     (make-lazy "stylua" "stylua")
     (make-lazy "nixpkgs-fmt" "nixpkgs-fmt")
     (make-lazy "jq" "jq")
+    (make-lazy "nodePackages_latest.prettier" "prettier")
 
     # Linters
     (make-lazy "markdownlint-cli" "markdownlint-cli")

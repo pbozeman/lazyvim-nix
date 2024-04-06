@@ -65,6 +65,7 @@ let
     tokyonight-nvim
     trouble-nvim
     vim-illuminate
+    vim-prettier
     vim-startuptime
     vscode-nvim
     which-key-nvim
