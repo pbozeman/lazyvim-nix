@@ -5,8 +5,8 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
     flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
-    neovim-nightly.url = "github:neovim/neovim?dir=contrib";
-    neovim-nightly.inputs.nixpkgs.follows = "nixpkgs";
+    neovim-stable.url = "github:neovim/neovim?ref=stable&dir=contrib";
+    neovim-stable.inputs.nixpkgs.follows = "nixpkgs";
 
     # Plugins not available in nixpkgs
     blame-me-nvim = { url = "github:hougesen/blame-me.nvim"; flake = false; };
@@ -32,10 +32,9 @@
             paths = pkgs.vimPlugins.nvim-treesitter.withAllGrammars.dependencies;
           };
 
-          # Use nightly neovim only ;)
-          neovimNightly = inputs.neovim-nightly.packages.${system}.default;
+          neovimStable = inputs.neovim-stable.packages.${system}.default;
           # Wrap neovim with custom init and plugins
-          neovimWrapped = pkgs.wrapNeovim neovimNightly {
+          neovimWrapped = pkgs.wrapNeovim neovimStable {
             configure = {
               customRC = /* vim */ ''
                 " Populate paths to neovim
