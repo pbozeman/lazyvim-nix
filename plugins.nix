@@ -47,6 +47,7 @@ let
     nvim-treesitter
     nvim-treesitter-context
     nvim-treesitter-textobjects
+    nvim-treesitter-parsers.verilog
     nvim-ts-autotag
     nvim-ts-context-commentstring
     nvim-web-devicons
