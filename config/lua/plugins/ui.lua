@@ -1,5 +1,13 @@
 return {
   {
+    "nvim-neotest/neotest",
+    dependencies = { "nvim-neotest/nvim-nio" },
+  },
+  {
+    "rcarriga/nvim-dap-ui",
+    dependencies = { "nvim-neotest/nvim-nio" },
+  },
+  {
     "2KAbhishek/nerdy.nvim",
     dependencies = {
       "stevearc/dressing.nvim",

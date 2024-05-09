@@ -42,6 +42,7 @@ let
     nvim-dap-virtual-text
     nvim-lint
     nvim-lspconfig
+    nvim-nio
     nvim-notify
     nvim-spectre
     nvim-treesitter

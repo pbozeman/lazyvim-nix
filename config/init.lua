@@ -26,6 +26,7 @@ require("lazy").setup({
     -- disable mason.nvim, use config.extraPackages
     { "williamboman/mason-lspconfig.nvim", enabled = false },
     { "williamboman/mason.nvim", enabled = false },
+    { "nvim-neotest/nvim-nio", enabled = true },
     { "jaybaby/mason-nvim-dap.nvim", enabled = false },
     -- uncomment to import/override with your plugins
     { import = "plugins" },
