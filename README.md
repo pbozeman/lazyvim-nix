@@ -9,7 +9,7 @@ Install the `nix` package manager (<https://nixos.org/download>).
 Run lazyvim-nix:
 
 ```bash
-nix run --extra-experimental-features "nix-command flakes" github:jla2000/lazyvim-nix
+nix run --extra-experimental-features "nix-command flakes" github:pbozeman/lazyvim-nix
 ```
 
 Nix will now download all dependencies and startup a fully configured neovim instance.
