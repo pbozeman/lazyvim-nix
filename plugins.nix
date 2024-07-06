@@ -46,6 +46,7 @@ let
     nvim-lspconfig
     nvim-nio
     nvim-notify
+    nvim-snippets
     ## nvim-spectre
     nvim-treesitter
     nvim-treesitter-context
