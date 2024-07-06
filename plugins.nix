@@ -28,6 +28,7 @@ let
     gitsigns-nvim
     headlines-nvim
     indent-blankline-nvim
+    lazydev-nvim
     lualine-nvim
     marks-nvim
     neo-tree-nvim
