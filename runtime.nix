@@ -52,7 +52,7 @@ pkgs.symlinkJoin {
     (make-lazy "nodePackages_latest.prettier" "prettier")
 
     # Linters
-    (make-lazy "markdownlint-cli" "markdownlint-cli")
+    (make-lazy "markdownlint-cli2" "markdownlint-cli2")
     (make-lazy "cmake-format" "cmake-format")
     cmakelint
 

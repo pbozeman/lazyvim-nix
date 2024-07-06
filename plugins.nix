@@ -13,6 +13,7 @@ let
   plugins = with pkgs.vimPlugins; [
     LazyVim
     better-escape-nvim
+    bufferline-nvim
     clangd_extensions-nvim
     cmp-buffer
     cmp-nvim-lsp
@@ -20,6 +21,7 @@ let
     cmp_luasnip
     conform-nvim
     crates-nvim
+    dashboard-nvim
     dressing-nvim
     flash-nvim
     friendly-snippets
@@ -44,7 +46,7 @@ let
     nvim-lspconfig
     nvim-nio
     nvim-notify
-    nvim-spectre
+    ## nvim-spectre
     nvim-treesitter
     nvim-treesitter-context
     nvim-treesitter-textobjects
@@ -66,6 +68,7 @@ let
     todo-comments-nvim
     tokyonight-nvim
     trouble-nvim
+    ts-comments-nvim
     vim-illuminate
     vim-prettier
     vim-startuptime
