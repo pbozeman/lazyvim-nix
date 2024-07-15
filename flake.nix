@@ -2,7 +2,10 @@
   description = "Setup LazyVim using NixVim";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs = {
+      url = "github:NixOS/nixpkgs/502b1ac291b58703a9c84a8c414c77fa88607ce6";
+    };
+
     flake-parts.url = "github:hercules-ci/flake-parts";
     flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
     neovim.url = "github:nix-community/neovim-nightly-overlay";
