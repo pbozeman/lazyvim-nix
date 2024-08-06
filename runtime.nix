@@ -46,6 +46,8 @@ pkgs.symlinkJoin {
     codelldb
 
     # Formatters
+    black
+    (make-lazy "black" "black")
     (make-lazy "stylua" "stylua")
     (make-lazy "nixpkgs-fmt" "nixpkgs-fmt")
     (make-lazy "jq" "jq")
