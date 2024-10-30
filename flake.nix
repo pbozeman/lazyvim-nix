@@ -2,20 +2,7 @@
   description = "Setup LazyVim using NixVim";
 
   inputs = {
-    nixpkgs = {
-      # url = "github:NixOS/nixpkgs/nixos-unstable";
-      #
-      # Work around for treesitter build failure:
-      #
-      # Fails:
-      # url = "github:NixOS/nixpkgs/8d8ab8cab";
-      # Works: (as in treesitter compiles)
-      # url = "github:NixOS/nixpkgs/77a4902508";
-      #
-      # but we still can't use it because of the is-not? issue
-      # https://github.com/nvim-treesitter/nvim-treesitter/issues/6870
-      url = "github:NixOS/nixpkgs/502b1ac291b58703a9c84a8c414c77fa88607ce6";
-    };
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     flake-parts.url = "github:hercules-ci/flake-parts";
     flake-parts.inputs.nixpkgs-lib.follows = "nixpkgs";
