@@ -3,7 +3,7 @@
 -- Add any additional autocmds here
 
 vim.api.nvim_create_autocmd("BufWritePost", {
-  pattern = "*.v",
+  pattern = { "*.v", "*.sv" },
   callback = function()
     local file = vim.fn.expand("<afile>")
     vim.cmd(
