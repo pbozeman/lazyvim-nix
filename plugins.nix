@@ -61,7 +61,9 @@ let
     persistence-nvim
     plenary-nvim
     project-nvim
+    render-markdown-nvim
     rust-tools-nvim
+    snacks-nvim
     sqlite-lua
     telescope-fzf-native-nvim
     telescope-nvim
