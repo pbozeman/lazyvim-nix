@@ -2,7 +2,7 @@
 let
   # Build plugins from github
   cmake-tools-nvim = pkgs.vimUtils.buildVimPlugin { name = "cmake-tools.nvim"; src = inputs.cmake-tools-nvim; };
-  cmake-gtest-nvim = pkgs.vimUtils.buildVimPlugin { name = "cmake-gtest.nvim"; src = inputs.cmake-gtest-nvim; };
+  #cmake-gtest-nvim = pkgs.vimUtils.buildVimPlugin { name = "cmake-gtest.nvim"; src = inputs.cmake-gtest-nvim; };
 
   mkEntryFromDrv = drv:
     if lib.isDerivation drv then
@@ -79,7 +79,8 @@ let
     vscode-nvim
     which-key-nvim
     { name = "LuaSnip"; path = luasnip; }
-    { name = "cmake-gtest.nvim"; path = cmake-gtest-nvim; }
+    # currently having a build issue
+    # { name = "cmake-gtest.nvim"; path = cmake-gtest-nvim; }
     { name = "cmake-tools.nvim"; path = cmake-tools-nvim; }
     { name = "mini.ai"; path = mini-nvim; }
     { name = "mini.bufremove"; path = mini-nvim; }
