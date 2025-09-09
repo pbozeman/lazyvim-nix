@@ -52,6 +52,7 @@ pkgs.symlinkJoin {
     (make-lazy "nixpkgs-fmt" "nixpkgs-fmt")
     (make-lazy "jq" "jq")
     (make-lazy "nodePackages_latest.prettier" "prettier")
+    (make-lazy "tex-fmt" "tex-fmt")
 
     # Linters
     (make-lazy "markdownlint-cli2" "markdownlint-cli2")
